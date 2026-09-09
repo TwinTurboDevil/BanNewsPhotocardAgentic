@@ -1,0 +1,34 @@
+# Environment files with API keys — NEVER commit these
+.env
+.env.local
+*.key
+api_keys.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large cache directories
+cache/
+.cache/
+easyocr_models/
+
+# Ollama model cache (users pull their own)
+*.gguf
+
+# Working files
+*.log
+scratch/
+tmp/
