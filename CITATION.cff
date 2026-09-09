@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software or dataset, please cite the associated paper."
+title: "Evidence-Grounded Agentic Multimodal Verification of Bangla News Photocards"
+authors:
+  - family-names: "Anam"
+    given-names: "Mahfuz"
+  - family-names: "Nahid"
+    given-names: "Kamrul Hasan"
+  - family-names: "Rahaman"
+    given-names: "Abu Sayed Md. Mostafizur"
+    name-particle: "Dr."
+year: 2026
+url: "https://github.com/[YOUR_USERNAME]/BanglaFakeCard-Agentic-Verification"
+preferred-citation:
+  type: article
+  title: "Evidence-Grounded Agentic Multimodal Verification of Bangla News Photocards Using Vision-Language Models and Web Retrieval"
+  authors:
+    - family-names: "Anam"
+      given-names: "Mahfuz"
+    - family-names: "Nahid"
+      given-names: "Kamrul Hasan"
+    - family-names: "Rahaman"
+      given-names: "Abu Sayed Md. Mostafizur"
+  journal: "Applied Intelligence"
+  year: 2026
+  notes: "Under review"
