@@ -1,0 +1,18 @@
+=================================================================
+          MCNEMAR STATISTICAL SIGNIFICANCE TEST REPORT
+=================================================================
+Total Samples Evaluated               : 1000
+Baseline Model Accuracy               : 70.7000%
+Agentic Model Accuracy                : 93.8000%
+-----------------------------------------------------------------
+Both Correct (n11)                    : 678
+Baseline Correct, Agentic Wrong (n10) : 29
+Agentic Correct, Baseline Wrong (n01) : 260
+Both Wrong (n00)                      : 33
+-----------------------------------------------------------------
+Test Variant Used                     : Chi-Square with Continuity Correction
+McNemar Test Statistic                : 183.0450
+p-value                               : 1.048593e-41
+=================================================================
+VERDICT: STATISTICALLY SIGNIFICANT IMPROVEMENT (p < 0.05)
+The Agentic model shows a statistically significant performance gain over the Baseline.

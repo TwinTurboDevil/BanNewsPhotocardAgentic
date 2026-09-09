@@ -1,0 +1,75 @@
+=================================================================
+           COMPREHENSIVE MODEL EVALUATION REPORT
+=================================================================
+
+[1] CONFUSION MATRIX TABLE (2x2)
+             Pred Real  Pred Fake
+Actual Real        208        292
+Actual Fake          1        499
+
+Numerical Breakdown:
+ True Negatives  (Actual Real, Pred Real): 208
+ False Positives (Actual Real, Pred Fake): 292
+ False Negatives (Actual Fake, Pred Real): 1
+ True Positives  (Actual Fake, Pred Fake): 499
+ Total Samples Evaluated:                 1000
+
+[2] PRIMARY CLASSIFICATION METRICS
+ Accuracy:            0.7070
+ Balanced Accuracy:   0.7070
+ Macro F1-Score:      0.6799
+ Weighted F1-Score:   0.6799
+-------------------------------------------------------
+ Real Class (0) -> Precision (NPV): 0.9952, Recall (Specificity): 0.4160, F1: 0.5867
+ Fake Class (1) -> Precision (PPV): 0.6308, Recall (Sensitivity): 0.9980, F1: 0.7730
+
+[3] DERIVATIVE ERROR RATES
+ False Positive Rate (FPR):    0.5840
+ False Negative Rate (FNR):    0.0020
+ False Discovery Rate (FDR):   0.3692
+ False Omission Rate (FOR):    0.0048
+
+[4] PROBABILITY & CALIBRATION METRICS
+ ROC-AUC Score:                 0.9992
+ PR-AUC Score (Avg Precision):  0.9994
+ Brier Score Loss:              0.1009
+
+[5] STATISTICAL AGREEMENT SCORES
+ Matthews Correlation Coeff (MCC): 0.5091
+ Cohen's Kappa Score:             0.4140
+
+[6] CONFIDENCE CALIBRATION ANALYSIS
+ Mean Confidence (Correct Predictions):   0.8186
+ Mean Confidence (Incorrect Predictions): 0.4984
+
+[7] STRATIFIED SUB-GROUP PERFORMANCE
+
+Accuracy Breakdown by News Genre:
+       Total  Accuracy
+genre                 
+POL      288  0.864583
+ENT      111  0.747748
+SPT      123  0.731707
+CRM      135  0.703704
+BIZ       76  0.631579
+HLT       78  0.576923
+INT      135  0.540741
+DIS       54  0.444444
+
+Accuracy Breakdown by News Outlet:
+             Total  Accuracy
+outlet_code                 
+BK             120  1.000000
+CB              67  1.000000
+DES             87  1.000000
+JO             155  1.000000
+PU              71  0.985915
+IT             105  0.609524
+SM              27  0.592593
+KK              32  0.531250
+CH              65  0.476923
+PA              95  0.389474
+DS              53  0.377358
+JG              18  0.222222
+JM              46  0.217391
+ST              59  0.152542
